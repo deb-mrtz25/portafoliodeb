@@ -2,76 +2,146 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio - Débora Martínez</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre mí</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-info">
+  <section class="hero" id="inicio">
+    <div class="hero-overlay">
+      <div class="hero-content">
         <img src="Fotos_Oficiales.png" alt="Débora Martínez" class="foto-perfil" />
-        <div>
-          <h1>Débora Martínez</h1>
-          <p>Lic. en Mercadeo Internacional</p>
-          <a href="Curriculum 25.pdf" class="btn">Descargar CV</a>
+
+        <div class="hero-text">
+          <h1>Hola, soy <span>Débora Martínez</span></h1>
+          <p>Licenciada en Mercadeo Internacional | Creativa, líder y apasionada por el diseño estratégico</p>
+
+          <div class="botones">
+
+            <a href="Curriculum 25.pdf" class="btn-secundario" target="_blank">Descargar CV</a>
+          </div>
         </div>
+      </div>
+  </section>
+
+
+  <section id="sobre-mi" class="sobre-mí">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy una joven creativa, determinada y con un alto nivel de compromiso tanto personal como profesional. 
+      Me caracteriza la comunicación efectiva, el liderazgo y la pasión por diseñar soluciones con propósito. 
+      Amo el trabajo en equipo, el aprendizaje constante y transformar los desafíos en oportunidades de crecimiento.
+    </p>
+  </section>
+
+
+  <section id="habilidades" class="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-container">
+      <div class="skill">Liderazgo y trabajo en equipo</div>
+      <div class="skill">Diseño gráfico y branding</div>
+      <div class="skill">HTML, CSS, JavaScript y Python</div>
+      <div class="skill">Estrategias de marketing digital</div>
+      <div class="skill">Inglés intermedio-avanzado</div>
+      <div class="skill">Comunicación efectiva y persuasiva</div>
+      <div class="skill">Pensamiento crítico y analítico</div>
+      <div class="skill">Creatividad e innovación</div>
+    </div>
+  </section>
+
+  <section id="formacion" class="formacion">
+    <h2>Formación Académica</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Licenciatura en Mercadeo Internacional</h3>
+        <p>Universidad de El Salvador (En curso)</p>
+        <span>2025 - Presente</span>
+      </div>
+      <div class="timeline-item">
+        <h3>Programa ¡Supérate! Hilasal</h3>
+        <p>Formación en inglés, informática y valores</p>
+        <span>2023 - 2025</span>
+      </div>
+      <div class="timeline-item">
+        <h3>Bachillerato General</h3>
+        <p>Complejo Educativo "René Toruño Steiner"</p>
+        <span>Finalizado en 2025</span>
       </div>
     </div>
   </section>
 
-    <section class="sobre-mí">
-        <h2>Sobre Mi</h2>
-        <p>Soy una joven creativa, determinada y con un alto nivel
-        de compromiso tanto personal como profesional. Se distingue por su comunicación
-        efectiva, pensamiento estratégico y una pasión por el diseño de soluciones con impacto.
-        Con un alto entusiasmo por el trabajo en equipo y la capacidad de transformar desafíos en oportunidades.</p>
-    </section>
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="galeria">
+      <div class="card">
+        <h3><a href="https://www.figma.com/design/GjvyU9MWQTnpM9tuLuLrBR/Trip-Scout?node-id=0-1" target="_blank">TripScout</a></h3>
+        <p>Prototipo en Figma sobre una app que promueve el turismo salvadoreño con experiencias interactivas y visuales.</p>
+      </div>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="galeria">
-            <div class="card">
-                <h3><a href="https://www.figma.com/design/GjvyU9MWQTnpM9tuLuLrBR/Trip-Scout?node-id=0-1&t=8oV6DZb3BvyrGCyY-1" target="_blank">Hackaton 2023</a></h3>
-                <p>Creación de un prototipo en Figma sobre una aplicación que busca fomentar y dar a conocer un poco más sobre el turismo salvadoreño</p>
-            </div>
+      <div class="card">
+        <h3><a href="https://github.com/OscarAlegria12/NewInnVate.git" target="_blank">InnVate</a></h3>
+        <p>Plataforma web que conecta a innovadores jóvenes con inversionistas dispuestos a impulsar sus ideas.</p>
+      </div>
 
-            <div class="card">
-                <h3><a href="https://github.com/OscarAlegria12/NewInnVate.git" target="_blank">Expo 2024</a></h3>
-                <p> Un sitio web enfocado en conectar a personas innovadoras sin experiencia laboral, pero con altas expectativas de trabajo y los inversores.</p>
-            </div>
+      <div class="card">
+        <h3><a href="https://github.com/ArianaSaenz/FrontEnd-Yumfull.git" target="_blank">YumFull</a></h3>
+        <p>Proyecto web que ofrece una alimentación saludable personalizada mediante dietas inteligentes.</p>
+      </div>
 
-            <div class="card">
-                <h3><a href="https://github.com/ArianaSaenz/FrontEnd-Yumfull.git" target="_blank">Expotech 2025</a></h3>
-                <p>Prototipo web dedicado a crear un servicion de alimentación saludable y personalizada en base a dietas de cada usuario.</p>
-            </div>
+      <div class="card">
+        <h3><a href="https://github.com/deb-mrtz25/Proyecto1.git" target="_blank">Tienda Deportiva</a></h3>
+        <p>Modelo de tienda de ropa deportiva online con interfaz dinámica y simulación de compra.</p>
+      </div>
+    </div>
+  </section>
 
-            <div class="card">
-                <h3><a href="https://github.com/usuario/repositorio4" target="_blank">Tienda Web</a></h3>
-                <p>Un sitio web como modelo de tienda de ropa deportiva en línea.</p>
-            </div>
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>¿Te gustaría colaborar o saber más sobre mí? Envíame un mensaje directamente desde aquí:</p>
 
-        </div>
-    </section>
+    <form action="https://formspree.io/f/xzbnlqwe" method="POST" class="contact-form">
+      <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" />
+      </div>
 
-    <footer>
-        <p>&copy; 2025 Débora Martínez. Todos los derechos reservados.</p>
-        <p>Contacto: merabmartinez16@gmail.com.</p>
-        <p>Teléfono: +503 7826 9875</p>
-    </footer>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com" />
+      </div>
+
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar mensaje</button>
+    </form>
+
+    <div class="contact-info">
+      <p><a href="mailto:merabmartinez16@gmail.com">merabmartinez16@gmail.com</a></p>
+      <p>+503 7826 9875</p>
+      <p><a href="https://github.com/deb-mrtz25" target="_blank">GitHub</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Débora Martínez | Todos los derechos reservados.</p>
+  </footer>
 </body>
-
 </html>
